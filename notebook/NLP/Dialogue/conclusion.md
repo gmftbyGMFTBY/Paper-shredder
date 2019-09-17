@@ -131,7 +131,7 @@
    1. Input Module
        MLP 对 belief state 构建初始的隐含状态，其中类型相似的节点使用的映射 MLP 是一样的。
    2. Communication Module
-       聚合和更新过程
+       聚合和更新过程。
    3. Output Module
        输出映射。
 3. details
@@ -933,7 +933,7 @@
 
      ![](.\photo\40.png)
 
-     1. State: $s_k^U,s_k^A$ 其中 $s_k^U$ 也编码了用户的 goal
+     1. State: $s_k^U,s_k^A$ 其中 $s_k^U​$ 也编码了用户的 goal
 
      2. Action: $a_k^U,a_K^A$ 
 
